@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevTrackR.ShippingOrders.Core", "src\DevTrackR.ShippingOrders.Core\DevTrackR.ShippingOrders.Core.csproj", "{40A3E2BA-0A33-47D7-AA23-D95B585C4599}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DevTrackR.ShippingOrders.Core", "src\DevTrackR.ShippingOrders.Core\DevTrackR.ShippingOrders.Core.csproj", "{40A3E2BA-0A33-47D7-AA23-D95B585C4599}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevTrackR.ShippingOrders.Infrastructure", "src\DevTrackR.ShippingOrders.Infrastructure\DevTrackR.ShippingOrders.Infrastructure.csproj", "{BD8E40D8-FC32-4E80-A6AA-34ED974D1286}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevTrackR.ShippingOrders.Application", "src\DevTrackR.ShippingOrders.Application\DevTrackR.ShippingOrders.Application.csproj", "{D8C21D04-A418-403D-AFAD-3F904E2828C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevTrackR.ShippingOrders.API", "src\DevTrackR.ShippingOrders.API\DevTrackR.ShippingOrders.API.csproj", "{38358F50-8523-4DB5-9758-F3CEB9183937}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{40A3E2BA-0A33-47D7-AA23-D95B585C4599}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{40A3E2BA-0A33-47D7-AA23-D95B585C4599}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{40A3E2BA-0A33-47D7-AA23-D95B585C4599}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD8E40D8-FC32-4E80-A6AA-34ED974D1286}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD8E40D8-FC32-4E80-A6AA-34ED974D1286}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD8E40D8-FC32-4E80-A6AA-34ED974D1286}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD8E40D8-FC32-4E80-A6AA-34ED974D1286}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8C21D04-A418-403D-AFAD-3F904E2828C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8C21D04-A418-403D-AFAD-3F904E2828C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8C21D04-A418-403D-AFAD-3F904E2828C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8C21D04-A418-403D-AFAD-3F904E2828C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38358F50-8523-4DB5-9758-F3CEB9183937}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38358F50-8523-4DB5-9758-F3CEB9183937}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38358F50-8523-4DB5-9758-F3CEB9183937}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38358F50-8523-4DB5-9758-F3CEB9183937}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
